@@ -77,8 +77,8 @@ a {
 }
 
 .main {
-  margin-top: 70px;
-  z-index: 10;
+  padding-top: 70px;
+
 }
 
 .theme {
@@ -255,10 +255,4 @@ a {
   font-size: 20px;
   text-align: right;
 }
-
-
-
-
-
-
 
