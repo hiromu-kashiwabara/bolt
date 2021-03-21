@@ -256,3 +256,102 @@ a {
   text-align: right;
 }
 
+@media screen and (min-width:768px) {
+  .header nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .inner {
+    width: 97%;
+  }
+
+  .section div {
+    float: none;
+  }
+
+  .section {
+    padding-bottom: 25px;
+  }
+
+  .section_right {
+    width: 100%;
+    padding-top: 0;
+    margin-top: 20px;
+  }
+
+  .section_text {
+    margin-top: 35px;
+  }
+
+  .section_img {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .article_main li {
+    float: none;
+    margin: 0;
+  }
+  
+  .article_main li:nth-child(3n+4) {
+    margin-top: 80px;
+  }
+
+  .article_footer {
+    margin-top: 80px;
+  }
+
+  .article_text,.article_button{
+    float: none;
+  }
+
+  .article_text {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+  .article_button {
+    margin-left: 0;
+  }
+
+  .skill_main li {
+    margin: 88px 0 0;
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .header a {
+    display: none;
+  }
+
+  .theme {
+    padding: 160px 0 130px;
+  }
+
+  .theme_title {
+    font-size: 80px;
+  }
+
+  .article_main img {
+    width: 100%;
+  }
+
+  .nav {
+    padding: 0;
+  } 
+
+  .nav_main {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .nav_main li {
+    float: none;
+    width: 100%;
+  }
+
+}
